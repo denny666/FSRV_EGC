@@ -1,0 +1,1315 @@
+definitions:
+  accountrouter.editAccountData:
+    properties:
+      editContent:
+        $ref: '#/definitions/nodeattr.EdgeAuth'
+      id:
+        type: integer
+    type: object
+  accountrouter.editPermissionInfo:
+    properties:
+      editContent:
+        items:
+          $ref: '#/definitions/nodeattr.AuthPermissopn'
+        type: array
+      id:
+        type: integer
+    type: object
+  accountrouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  connectrecordrouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  connectrouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  connectrouter.updateCon:
+    properties:
+      editContent:
+        $ref: '#/definitions/nodeattr.ConInfo'
+      id:
+        type: integer
+    type: object
+  devicerouter.devInfo:
+    properties:
+      editContent:
+        $ref: '#/definitions/nodeattr.DevInfo'
+      id:
+        type: integer
+    type: object
+  devicerouter.edConvInfo:
+    properties:
+      editContent:
+        items:
+          $ref: '#/definitions/nodeattr.Converter'
+        type: array
+      name:
+        type: string
+    type: object
+  devicerouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  edgeservice.NodeStruct:
+    properties:
+      name:
+        type: string
+      value:
+        type: object
+    type: object
+  historyrouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  kanbanrouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  loginrouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  nodeattr.AuthPermissopn:
+    properties:
+      accountId:
+        type: integer
+      action:
+        type: integer
+      browseName:
+        type: string
+      id:
+        type: integer
+    type: object
+  nodeattr.ConInfo:
+    properties:
+      account:
+        type: string
+      certification:
+        type: string
+      exist:
+        type: integer
+      id:
+        type: integer
+      ip:
+        type: string
+      name:
+        type: string
+      password:
+        type: string
+      port:
+        type: string
+      protocol:
+        type: integer
+      status:
+        type: integer
+      timestamp:
+        type: integer
+    type: object
+  nodeattr.ConnectRecord:
+    properties:
+      account:
+        type: string
+      id:
+        type: integer
+      ip:
+        type: string
+      timestamp:
+        type: integer
+      type:
+        type: integer
+      url:
+        type: string
+    type: object
+  nodeattr.Converter:
+    properties:
+      convertFunc:
+        type: string
+      dstBrowseName:
+        type: string
+      dstNodeId:
+        type: string
+      id:
+        type: integer
+      modify:
+        type: integer
+      referenceBrowseName1:
+        type: string
+      referenceBrowseName2:
+        type: string
+      referenceBrowseName3:
+        type: string
+      srcBrowseName:
+        type: string
+      srcDevName:
+        type: string
+      srcNamespace:
+        type: integer
+      srcNodeId:
+        type: string
+      srcUnit:
+        type: string
+      value:
+        type: string
+    type: object
+  nodeattr.DevInfo:
+    properties:
+      brand:
+        type: string
+      conId:
+        type: integer
+      conName:
+        type: string
+      id:
+        type: integer
+      name:
+        type: string
+      protocol:
+        type: integer
+      status:
+        type: integer
+      tempID:
+        type: integer
+      tempName:
+        type: string
+    type: object
+  nodeattr.EdgeAuth:
+    properties:
+      account:
+        type: string
+      id:
+        type: integer
+      name:
+        type: string
+      password:
+        type: string
+      timestamp:
+        type: integer
+    type: object
+  nodeattr.Template:
+    properties:
+      createTime:
+        type: integer
+      description:
+        type: string
+      id:
+        type: integer
+      model:
+        type: string
+      modifyTime:
+        type: integer
+      name:
+        type: string
+    type: object
+  nodeattr.TemplateRel:
+    properties:
+      convertFunc:
+        type: string
+      dstBrowseName:
+        type: string
+      dstNodeId:
+        type: string
+      id:
+        type: integer
+      referenceBrowseName1:
+        type: string
+      referenceBrowseName2:
+        type: string
+      referenceBrowseName3:
+        type: string
+      srcBrowseName:
+        type: string
+      srcNamespace:
+        type: integer
+      srcNodeId:
+        type: string
+      srcUnit:
+        type: string
+      templateId:
+        type: integer
+    type: object
+  templaterouter.editTmpRel:
+    properties:
+      editContent:
+        items:
+          $ref: '#/definitions/nodeattr.TemplateRel'
+        type: array
+      name:
+        type: string
+      templateId:
+        type: integer
+    type: object
+  templaterouter.errMsg:
+    properties:
+      msg:
+        type: string
+    type: object
+  templaterouter.tmpInfo:
+    properties:
+      createTime:
+        type: integer
+      description:
+        type: string
+      id:
+        type: integer
+      model:
+        type: string
+      modifyTime:
+        type: integer
+      name:
+        type: string
+    type: object
+  templaterouter.updateTemp:
+    properties:
+      editContent:
+        $ref: '#/definitions/nodeattr.Template'
+      id:
+        type: integer
+    type: object
+info:
+  contact: {}
+paths:
+  /edge/account:
+    get:
+      consumes:
+      - application/json
+      description: 取得帳戶資訊
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.EdgeAuth'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/accountrouter.errMsg'
+      tags:
+      - 帳戶列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯帳戶列表
+      parameters:
+      - description: 帳戶列表資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/accountrouter.editAccountData'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/accountrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/accountrouter.errMsg'
+      tags:
+      - 帳戶列表
+  /edge/browse:
+    get:
+      consumes:
+      - application/json
+      description: 取得所有Browse name
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+  /edge/checkconverter:
+    post:
+      consumes:
+      - application/json
+      description: 檢查轉換表是否被編輯
+      parameters:
+      - description: 轉換表資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/devicerouter.edConvInfo'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+  /edge/connect:
+    delete:
+      consumes:
+      - application/json
+      description: 刪除連線資訊
+      parameters:
+      - description: 連線ID
+        in: header
+        name: id
+        required: true
+        type: integer
+      - description: 連線名稱
+        in: header
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+      tags:
+      - 連線列表
+    get:
+      consumes:
+      - application/json
+      description: 取得連線資訊<br> status(value=0:異常,1:連線,2:斷線)<br> Protocol(value=0:OPC
+        UA,1:HTTP)
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.ConInfo'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+      tags:
+      - 連線列表
+    post:
+      consumes:
+      - application/json
+      description: 新增連線資訊<br> Protocol(value=0:OPC UA,1:HTTP)
+      parameters:
+      - description: 連線資料
+        in: body
+        name: data
+        required: true
+        schema:
+          items:
+            $ref: '#/definitions/nodeattr.ConInfo'
+          type: array
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+      tags:
+      - 連線列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯連線資訊
+      parameters:
+      - description: 編輯資料
+        in: body
+        name: editinfo
+        required: true
+        schema:
+          $ref: '#/definitions/connectrouter.updateCon'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+      tags:
+      - 連線列表
+  /edge/connectrecord:
+    get:
+      consumes:
+      - application/json
+      description: 取得系統記錄(type=0:異常,1:登入,2:登出)
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.ConnectRecord'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/connectrecordrouter.errMsg'
+      tags:
+      - 系統記錄
+  /edge/converter:
+    get:
+      consumes:
+      - application/json
+      description: 取得轉換表資訊
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.Converter'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+    post:
+      consumes:
+      - application/json
+      description: 複製轉換表為新範本(data需提供轉換表所有欄位資料，name填入新範本名稱)
+      parameters:
+      - description: 轉換表所有欄位資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/devicerouter.edConvInfo'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯資料轉換表資訊
+      parameters:
+      - description: 資料轉換表資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/devicerouter.edConvInfo'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+  /edge/device:
+    delete:
+      consumes:
+      - application/json
+      description: 刪除設備資訊
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+    get:
+      consumes:
+      - application/json
+      description: 取得設備資訊<br> Protocol(value=0:OPC UA,1:HTTP) <br>若protocol=0 status(value=0:異常,1:運轉,2:閒置,3:Unknown)
+        <br>若protocol=1 status(value=2:停機,3:閒置,4:異常,5:運轉,7:不良品,其他數字:Unknown)
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.DevInfo'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯設備資訊
+      parameters:
+      - description: 設備編輯資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/devicerouter.devInfo'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+  /edge/history:
+    get:
+      consumes:
+      - application/json
+      description: 取得所有歷史資料<br> 若protocol="OPC UA" Machine_Status(value=1:全自動,2:半自動,3:手動,4:設置,其他數字:Unknown)
+        <br> Machine_Motor(value=1:ON,0:OFF)<br> 若protocol="HTTP" Machine_Status(value=2:停機,3:閒置,4:異常,5:運轉,7:不良品,其他數字:Unknown)
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      - description: 選擇時間
+        in: header
+        name: selectTime
+        required: true
+        type: string
+      - description: 顯示欄位
+        in: header
+        name: columns
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              additionalProperties: true
+              type: object
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/historyrouter.errMsg'
+      tags:
+      - 歷史資料
+  /edge/importtemplate:
+    post:
+      consumes:
+      - application/json
+      description: 匯入範本
+      parameters:
+      - description: 範本關聯表資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/templaterouter.editTmpRel'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+  /edge/level0history:
+    get:
+      consumes:
+      - application/json
+      description: 取得level0歷史資料
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      - description: 選擇時間
+        in: header
+        name: selectTime
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/historyrouter.errMsg'
+      tags:
+      - 歷史資料
+  /edge/level0info:
+    get:
+      consumes:
+      - application/json
+      description: 取得設備 level 0 資訊
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/kanbanrouter.errMsg'
+      tags:
+      - 即時看板
+  /edge/level1history:
+    get:
+      consumes:
+      - application/json
+      description: 取得level1歷史資料<br> 若protocol="OPC UA" Machine_Status(value=1:全自動,2:半自動,3:手動,4:設置,其他數字:Unknown)
+        <br> Machine_Motor(value=1:ON,0:OFF)<br> 若protocol="HTTP" Machine_Status(value=2:停機,3:閒置,4:異常,5:運轉,7:不良品,其他數字:Unknown)
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      - description: 選擇時間
+        in: header
+        name: selectTime
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/historyrouter.errMsg'
+      tags:
+      - 歷史資料
+  /edge/level1info:
+    get:
+      consumes:
+      - application/json
+      description: 取得level1即時資料<br> 若protocol="OPC UA" Machine_Status(value=0：手動、1：半自動、2：全自動(電眼)、3：全自動(操作狀態Operation
+        mode)) <br> Machine_Motor(value=1:ON,0:OFF)<br> 若protocol="HTTP" Machine_Status(value=2:停機,3:閒置,4:異常,5:運轉,7:不良品,其他數字:Unknown)
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/kanbanrouter.errMsg'
+      tags:
+      - 即時看板
+  /edge/level2history:
+    get:
+      consumes:
+      - application/json
+      description: 取得level2歷史資料
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      - description: 選擇時間
+        in: header
+        name: selectTime
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/historyrouter.errMsg'
+      tags:
+      - 歷史資料
+  /edge/level2info:
+    get:
+      consumes:
+      - application/json
+      description: 取得設備 level 2 資訊
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/kanbanrouter.errMsg'
+      tags:
+      - 即時看板
+  /edge/level3history:
+    get:
+      consumes:
+      - application/json
+      description: 取得level3歷史資料
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      - description: 選擇時間
+        in: header
+        name: selectTime
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/historyrouter.errMsg'
+      tags:
+      - 歷史資料
+  /edge/level3info:
+    get:
+      consumes:
+      - application/json
+      description: 取得設備 level 3 資訊
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/kanbanrouter.errMsg'
+      tags:
+      - 即時看板
+  /edge/level4history:
+    get:
+      consumes:
+      - application/json
+      description: 取得level4歷史資料
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      - description: 選擇時間
+        in: header
+        name: selectTime
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/historyrouter.errMsg'
+      tags:
+      - 歷史資料
+  /edge/level4info:
+    get:
+      consumes:
+      - application/json
+      description: 取得設備 level 4 資訊
+      parameters:
+      - description: 設備ID
+        in: header
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/edgeservice.NodeStruct'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/kanbanrouter.errMsg'
+      tags:
+      - 即時看板
+  /edge/login:
+    get:
+      consumes:
+      - application/json
+      description: 登入用
+      parameters:
+      - description: 帳號
+        in: header
+        name: account
+        required: true
+        type: string
+      - description: 密碼(SHA512格式)
+        in: header
+        name: password
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/loginrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/loginrouter.errMsg'
+      tags:
+      - 登入、登出功能
+  /edge/logout:
+    get:
+      consumes:
+      - application/json
+      description: 登出用
+      parameters:
+      - description: 帳戶
+        in: header
+        name: account
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/loginrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/loginrouter.errMsg'
+      tags:
+      - 登入、登出功能
+  /edge/model:
+    get:
+      consumes:
+      - application/json
+      description: 取得設備模型資料
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              type: string
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+  /edge/permission:
+    get:
+      consumes:
+      - application/json
+      description: 取得帳戶權限 <br> action(value=0:None,1:Read,2:Write)
+      parameters:
+      - description: 帳戶ID
+        in: header
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.AuthPermissopn'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/accountrouter.errMsg'
+      tags:
+      - 帳戶列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯帳戶權限 <br> action(value=0:None,1:Read,2:Write)
+      parameters:
+      - description: 帳戶權限資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/accountrouter.editPermissionInfo'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/accountrouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/accountrouter.errMsg'
+      tags:
+      - 帳戶列表
+  /edge/scanip:
+    get:
+      consumes:
+      - application/json
+      description: 取得所有連線
+      parameters:
+      - description: ip範圍或單一IP
+        in: header
+        name: ip
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.ConInfo'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/connectrouter.errMsg'
+      tags:
+      - 連線列表
+  /edge/template:
+    delete:
+      consumes:
+      - application/json
+      description: 刪除範本列表
+      parameters:
+      - description: 範本名稱
+        in: header
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+    get:
+      consumes:
+      - application/json
+      description: 取得範本列表
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.Template'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+    post:
+      consumes:
+      - application/json
+      description: 新增範本列表 <br>使用複製範本功能，id填入來源範本id，name填入新範本名稱
+      parameters:
+      - description: 範本資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/templaterouter.tmpInfo'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯範本列表
+      parameters:
+      - description: 編輯資料
+        in: body
+        name: editinfo
+        required: true
+        schema:
+          $ref: '#/definitions/templaterouter.updateTemp'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+  /edge/temprel:
+    get:
+      consumes:
+      - application/json
+      description: 取得範本關聯資訊
+      parameters:
+      - description: 範本ID
+        in: header
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/nodeattr.TemplateRel'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+    put:
+      consumes:
+      - application/json
+      description: 編輯範本關聯資訊
+      parameters:
+      - description: 範本關聯表資料
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/templaterouter.editTmpRel'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/templaterouter.errMsg'
+      tags:
+      - 範本列表
+  /edge/value:
+    get:
+      consumes:
+      - application/json
+      description: 取得欄位實際值
+      parameters:
+      - description: 欄位NodeId
+        in: header
+        name: nodeId
+        required: true
+        type: integer
+      - description: 欄位namespace
+        in: header
+        name: namespace
+        required: true
+        type: integer
+      - description: 欄位browseName
+        in: header
+        name: browseName
+        required: true
+        type: integer
+      - description: 設備ID
+        in: header
+        name: devId
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/devicerouter.errMsg'
+      tags:
+      - 設備列表
+swagger: "2.0"

@@ -1,0 +1,270 @@
+2021-04-23 08:18:54.917 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:23:55.092 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:28:55.256 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:33:55.558 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:38:55.902 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:43:56.158 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:48:56.482 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:53:56.85 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 08:58:57.36 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:03:57.603 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:08:58.041 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:13:58.355 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:18:58.537 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:23:58.758 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:29:01.163 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:34:11.532 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:39:16.373 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:44:16.807 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:49:17.144 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:54:17.927 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 09:59:20.803 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:04:24.329 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:09:29.674 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:14:31.452 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:19:31.884 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:24:37.882 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:29:38.283 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:34:38.952 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:39:59.474 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:46:35.153 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:51:35.465 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 10:51:56.466 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:52:17.468 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:52:38.471 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:52:52.484 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: An established connection was aborted by the software in your host machine.
+2021-04-23 10:52:52.496 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.496 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.497 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.499 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.499 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.5 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.501 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:52:52.533 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 10:53:13.537 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:53:34.54 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:53:55.542 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:54:16.546 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:54:37.549 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:54:58.553 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:55:19.556 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:55:40.559 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:56:01.561 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:56:22.566 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:56:43.568 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:57:04.571 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:57:25.573 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:57:46.576 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:58:07.581 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:58:28.586 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:58:49.587 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:59:10.591 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:59:31.593 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 10:59:52.598 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:00:13.602 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:00:34.607 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:00:55.608 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:01:16.61 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:01:37.616 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:01:58.625 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:02:19.628 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:02:40.629 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:03:01.631 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:03:22.633 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:03:43.636 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:04:04.638 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:04:25.639 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:04:46.643 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:05:07.643 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:05:28.647 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:05:49.652 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:06:10.655 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:06:31.659 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:32:05.807 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021-04-23 11:32:05.817 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.822 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.823 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.828 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.831 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.835 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.836 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.84 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.841 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.844 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.845 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.845 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.847 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.847 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.848 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.848 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.852 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.855 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.856 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.857 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.857 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.858 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.859 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.859 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.86 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.861 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.864 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.867 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.868 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.869 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.87 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.87 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.871 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.874 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.875 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.879 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.879 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.88 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.881 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.881 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.882 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.883 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.885 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.889 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.889 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.89 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.891 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.892 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.892 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.893 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.894 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.894 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.897 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.901 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.902 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.903 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.903 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.904 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.908 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.908 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.912 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.912 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.913 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.914 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.914 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.915 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.916 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.919 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.922 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.923 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.924 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.925 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.926 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.929 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.929 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.933 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.934 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.935 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.935 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.938 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.939 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.943 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.944 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.944 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.945 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.945 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.946 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.948 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.949 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.954 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.955 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.955 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.956 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.957 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.959 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.962 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.963 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.964 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.964 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.965 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.966 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.973 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.984 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:05.997 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.005 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.017 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.025 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.033 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.047 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.054 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.066 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.074 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.086 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.094 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.108 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.123 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.135 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.15 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.161 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.174 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.182 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.191 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.202 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.214 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.222 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.232 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.24 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.251 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.264 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.271 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.281 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.29 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.301 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.313 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.32 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 11:32:06.33 [Critical] [service.go:177] [monitor error] dial tcp 192.168.10.172:4840: connectex: A socket operation was attempted to an unreachable host.
+2021-04-23 12:44:25 [Critical] [influx.go:48] Init influx error:Post "http://localhost:8086/query?db=&params=%7B%7D&q=CREATE+DATABASE+data_node_history+WITH+DURATION+1d": dial tcp [::1]:8086: connectex: No connection could be made because the target machine actively refused it.
+2021-04-23 12:55:59.529 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:00:59.792 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:06:00.765 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:11:01.114 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:16:01.811 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:21:02.17 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:26:02.362 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:31:03.328 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:36:05.492 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:41:05.869 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:46:06.252 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:51:06.727 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 13:56:07.089 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:01:07.755 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:06:08.187 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:11:08.388 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:21:03.864 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:26:04.323 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:31:05.024 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:36:05.5 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:41:05.778 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:46:06.577 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:51:07.888 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 14:58:13.993 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:03:15.499 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:08:15.858 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:13:16.81 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:18:18.939 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:23:19.368 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:28:19.607 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:33:19.948 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:38:20.207 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 15:56:44.865 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 16:41:24.613 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 16:46:27.947 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 16:51:28.228 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 16:56:29.057 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:01:29.465 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:06:29.669 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:11:29.961 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:16:30.58 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:21:31.384 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:26:32.199 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:31:32.569 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:42:10.026 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:47:10.868 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:52:11.236 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 17:57:11.7 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 18:02:12.136 [Critical] [service.go:352] [sub error] ctx done
+2021-04-23 18:07:12.438 [Critical] [service.go:352] [sub error] ctx done

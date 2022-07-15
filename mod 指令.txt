@@ -1,0 +1,6 @@
+set go111module=on
+go mod init
+go mod tidy
+export GO111MODULE=on
+go clean --modcache
+go clean -cache -modcache -r
